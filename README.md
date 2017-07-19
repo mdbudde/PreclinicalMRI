@@ -1,11 +1,12 @@
 # PreclinicalNeuroMRI
 A collection of tools for preclinical brain and spinal cord MRI
 
-NOTE: I originally wanted to share source code, which facilitates installation.  However, I realize that this could violate Bruker's license agreement.  I intend to ask Bruker for clarification regard sharing of sequences.  I may need to share the sequences in binary format, but that may complicate the installation since some files get installed during compilation.  I need to followup on these details, but in the meantime, I have not made the source code publically available.
+NOTE: I originally wanted to share source code, which facilitates installation.  However, I realize that this could violate Bruker's license agreement.  I intend to ask Bruker for clarification regard sharing with other users.  The sequencesi may need to be shared in binary format, but that may complicate the installation.  In the meantime, the modified source code sequences are not publically available.
+
+Please contact me directly with questions or availability of sequences: mdbudde@mcw.edu
 
 
-Modified sequences:
-
+List of available modified sequences:
 gatedMGEv1: 
 Uses external respiratory/cardiac gating but maintains steady state (dummy scans) between triggers.  Typically used for 3D multiple-gradient echo images of the spinal cord.
 
@@ -20,6 +21,11 @@ shapedDwi_Epi:
 A sequence to enable any arbitrary gradient waveform to be implemented for diffusion weighting using an external file.  Compatible with oscillating gradient spin echo (OGSE), rotation of the q vector (qMAS), and many others.
 This sequence will require the user to create/modify their own waveform file.  The examples included in the sequence, ShapedDwiStick.gp, etc should be modified to accomodate the users gradient characteristics.  Re-compiling the sequence will install them to the correct directory. Clicking on the 'Reload Shapes' button in the PV interface will ensure they get reloaded, obviously.
 
+fFOV_DwiEpi: (Not yet released)
+A reduced field of view diffusion EPI sequence using 2D echo planar excitation (2DRF).
+
+dde_press: (Not yet release)
+A press spectroscopy sequence with double diffusion encoding preparation.
 
 
 Simulations:
