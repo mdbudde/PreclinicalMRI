@@ -4,7 +4,7 @@ A collection of tools for preclinical brain and spinal cord MRI
 NOTE: I originally wanted to share source code, which facilitates installation.  However, I realize that this could violate Bruker's license agreement.  I intend to ask Bruker for clarification regard sharing with other users.  The sequencesi may need to be shared in binary format, but that may complicate the installation.  In the meantime, the modified source code sequences are not publically available.
 
 Please contact me directly with questions or availability of sequences: mdbudde@mcw.edu
-
+ 
 
 List of available modified sequences:
 gatedMGEv1: 
