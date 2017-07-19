@@ -1,4 +1,4 @@
-# PreclinicalNeuroMRI
+# PreclinicalMRI
 A collection of tools for preclinical brain and spinal cord MRI
 
 NOTE: I originally wanted to share source code, which facilitates installation.  However, I realize that this could violate Bruker's license agreement.  I intend to ask Bruker for clarification regard sharing of sequences.  I may need to share the sequences in binary format, but that may complicate the installation since some files get installed during compilation.  I need to followup on these details, but in the meantime, I have not made the source code publically available.
